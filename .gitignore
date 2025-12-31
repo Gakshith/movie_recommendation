@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+model_data/*.pkl
+tmdb_5000_movies.csv
+tmdb_5000_movies.csv.zip
+tmdb_5000_credits.csv
+tmdb_5000_credits.csv.zip

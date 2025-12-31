@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Welcome</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/dashboard.css">
+</head>
+
+<body>
+    <div class="dashboard-container">
+        <nav class="navbar">
+            <div class="nav-content">
+                <div class="nav-brand">
+                    <div class="logo-circle">
+                        <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 4L4 10V14C4 21.18 9.84 27.62 16 29C22.16 27.62 28 21.18 28 14V10L16 4Z"
+                                fill="url(#gradient)" stroke="white" stroke-width="2" />
+                            <defs>
+                                <linearGradient id="gradient" x1="4" y1="4" x2="28" y2="29"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#667eea" />
+                                    <stop offset="1" stop-color="#764ba2" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <span class="brand-text">Dashboard</span>
+                </div>
+                <div class="nav-user">
+                    <div class="user-info">
+                        <span class="user-name" id="userName">Loading...</span>
+                        <span class="user-email" id="userEmail"></span>
+                    </div>
+                    <button class="btn-logout" id="logoutBtn">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M13 3L11.59 4.41L15.17 8H6V10H15.17L11.59 13.59L13 15L19 9L13 3ZM2 2H10V0H2C0.9 0 0 0.9 0 2V16C0 17.1 0.9 18 2 18H10V16H2V2Z"
+                                fill="currentColor" />
+                        </svg>
+                        Logout
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <main class="main-content">
+            <div class="welcome-section">
+                <h1 class="welcome-title">Welcome back, <span id="welcomeName">User</span>! 👋</h1>
+                <p class="welcome-subtitle">Here's what's happening with your account today.</p>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon purple">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 5C13.66 5 15 6.34 15 8C15 9.66 13.66 11 12 11C10.34 11 9 9.66 9 8C9 6.34 10.34 5 12 5ZM12 19.2C9.5 19.2 7.29 17.92 6 15.98C6.03 13.99 10 12.9 12 12.9C13.99 12.9 17.97 13.99 18 15.98C16.71 17.92 14.5 19.2 12 19.2Z"
+                                fill="currentColor" />
+                        </svg>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-value">Active</h3>
+                        <p class="stat-label">Account Status</p>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon blue">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM9 17H7V10H9V17ZM13 17H11V7H13V17ZM17 17H15V13H17V17Z"
+                                fill="currentColor" />
+                        </svg>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-value">0</h3>
+                        <p class="stat-label">Total Activities</p>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon green">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M9 16.17L4.83 12L3.41 13.41L9 19L21 7L19.59 5.59L9 16.17Z" fill="currentColor" />
+                        </svg>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-value">100%</h3>
+                        <p class="stat-label">Security Score</p>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon orange">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM12.5 7H11V13L16.25 16.15L17 14.92L12.5 12.25V7Z"
+                                fill="currentColor" />
+                        </svg>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-value" id="lastLogin">Just now</h3>
+                        <p class="stat-label">Last Login</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-grid">
+                <div class="content-card">
+                    <div class="card-header-dash">
+                        <h2 class="card-title">Quick Actions</h2>
+                    </div>
+                    <div class="actions-list">
+                        <button class="action-item">
+                            <div class="action-icon">📝</div>
+                            <div class="action-text">
+                                <h4>Update Profile</h4>
+                                <p>Manage your account settings</p>
+                            </div>
+                        </button>
+                        <button class="action-item">
+                            <div class="action-icon">🔒</div>
+                            <div class="action-text">
+                                <h4>Change Password</h4>
+                                <p>Keep your account secure</p>
+                            </div>
+                        </button>
+                        <button class="action-item">
+                            <div class="action-icon">⚙️</div>
+                            <div class="action-text">
+                                <h4>Preferences</h4>
+                                <p>Customize your experience</p>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="content-card">
+                    <div class="card-header-dash">
+                        <h2 class="card-title">Account Information</h2>
+                    </div>
+                    <div class="info-list">
+                        <div class="info-item">
+                            <span class="info-label">Username:</span>
+                            <span class="info-value" id="infoUsername">-</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Email:</span>
+                            <span class="info-value" id="infoEmail">-</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Member Since:</span>
+                            <span class="info-value">December 2025</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Account Type:</span>
+                            <span class="info-value">Standard</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="/scripts/dashboard.js"></script>
+</body>
+
+</html>

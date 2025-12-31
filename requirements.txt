@@ -1,0 +1,12 @@
+fastapi[standard]
+uvicorn
+pydantic
+pydantic[email]
+python-jose[cryptography]
+bcrypt
+python-multipart
+requests
+python-dotenv
+scikit-learn
+pandas
+numpy

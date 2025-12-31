@@ -1,0 +1,785 @@
+{
+  "users": [
+    {
+      "username": "dustinausti",
+      "email": "dustinaustin03@gmail.com",
+      "password": "$2b$12$VknWBx5SWJnmfhoNQ5AKJeX0mUtQGC4eHO1VaDRKYeO1rmPU61dIO",
+      "liked_movies": [],
+      "viewed_movies": [],
+      "search_history": []
+    },
+    {
+      "username": "akshith",
+      "email": "akshithgojuru@gmail.com",
+      "password": "$2b$12$If30lMIWYq9jA1rVSE.Af.0ZSiASBFvzk4WNtn2YnO/Q3N.B8Cp5e",
+      "liked_movies": [
+        414,
+        2661,
+        268
+      ],
+      "viewed_movies": [
+        {
+          "movie_id": 13,
+          "timestamp": "2025-12-29T08:21:48.385275"
+        },
+        {
+          "movie_id": 3,
+          "timestamp": "2025-12-29T08:22:03.905848"
+        },
+        {
+          "movie_id": 4,
+          "timestamp": "2025-12-29T08:22:10.335356"
+        },
+        {
+          "movie_id": 4,
+          "timestamp": "2025-12-29T08:22:15.015302"
+        },
+        {
+          "movie_id": 5,
+          "timestamp": "2025-12-29T08:22:22.614194"
+        },
+        {
+          "movie_id": 17,
+          "timestamp": "2025-12-29T08:44:35.467224"
+        },
+        {
+          "movie_id": 1,
+          "timestamp": "2025-12-30T07:53:43.009746"
+        },
+        {
+          "movie_id": 18,
+          "timestamp": "2025-12-30T07:53:47.525571"
+        },
+        {
+          "movie_id": 20,
+          "timestamp": "2025-12-30T07:53:51.855995"
+        },
+        {
+          "movie_id": 18,
+          "timestamp": "2025-12-30T08:14:29.346997"
+        },
+        {
+          "movie_id": 2,
+          "timestamp": "2025-12-30T08:54:52.174368"
+        },
+        {
+          "movie_id": 2,
+          "timestamp": "2025-12-30T08:58:52.716893"
+        },
+        {
+          "movie_id": 2,
+          "timestamp": "2025-12-30T08:59:14.242142"
+        },
+        {
+          "movie_id": 2,
+          "timestamp": "2025-12-30T08:59:14.752375"
+        },
+        {
+          "movie_id": 2,
+          "timestamp": "2025-12-30T08:59:14.921282"
+        },
+        {
+          "movie_id": 2,
+          "timestamp": "2025-12-30T08:59:15.106749"
+        },
+        {
+          "movie_id": 211672,
+          "timestamp": "2025-12-30T09:27:59.848598"
+        },
+        {
+          "movie_id": 142061,
+          "timestamp": "2025-12-30T23:15:18.422992"
+        },
+        {
+          "movie_id": 157336,
+          "timestamp": "2025-12-30T23:32:01.888339"
+        },
+        {
+          "movie_id": 211672,
+          "timestamp": "2025-12-30T23:32:06.366544"
+        },
+        {
+          "movie_id": 157336,
+          "timestamp": "2025-12-30T23:32:18.797052"
+        },
+        {
+          "movie_id": 157336,
+          "timestamp": "2025-12-30T23:32:52.504839"
+        },
+        {
+          "movie_id": 157336,
+          "timestamp": "2025-12-30T23:33:01.320712"
+        },
+        {
+          "movie_id": 414,
+          "timestamp": "2025-12-30T23:35:35.587975"
+        },
+        {
+          "movie_id": 414,
+          "timestamp": "2025-12-30T23:38:11.018915"
+        },
+        {
+          "movie_id": 268,
+          "timestamp": "2025-12-31T02:22:16.076603"
+        },
+        {
+          "movie_id": 155,
+          "timestamp": "2025-12-31T02:26:15.625887"
+        }
+      ],
+      "search_history": [
+        {
+          "query": "inte",
+          "timestamp": "2025-12-30T23:14:46.633923"
+        },
+        {
+          "query": "bat",
+          "timestamp": "2025-12-30T23:14:58.743003"
+        },
+        {
+          "query": "batman",
+          "timestamp": "2025-12-30T23:14:59.549485"
+        },
+        {
+          "query": "inte",
+          "timestamp": "2025-12-30T23:20:05.435136"
+        },
+        {
+          "query": "batman",
+          "timestamp": "2025-12-30T23:20:11.430381"
+        },
+        {
+          "query": "batman",
+          "timestamp": "2025-12-30T23:20:11.748585"
+        },
+        {
+          "query": "interstellar",
+          "timestamp": "2025-12-30T23:20:42.847145"
+        },
+        {
+          "query": "interstellar",
+          "timestamp": "2025-12-30T23:21:04.059546"
+        },
+        {
+          "query": "ba",
+          "timestamp": "2025-12-30T23:21:08.249444"
+        },
+        {
+          "query": "batman",
+          "timestamp": "2025-12-30T23:21:09.314966"
+        },
+        {
+          "query": "interstellar",
+          "timestamp": "2025-12-30T23:23:55.513200"
+        },
+        {
+          "query": "in",
+          "timestamp": "2025-12-30T23:24:09.625826"
+        },
+        {
+          "query": "int",
+          "timestamp": "2025-12-30T23:24:16.590552"
+        },
+        {
+          "query": "in",
+          "timestamp": "2025-12-30T23:24:18.903030"
+        },
+        {
+          "query": "ince",
+          "timestamp": "2025-12-30T23:24:19.795385"
+        },
+        {
+          "query": "incep",
+          "timestamp": "2025-12-30T23:24:20.965632"
+        },
+        {
+          "query": "batman",
+          "timestamp": "2025-12-30T23:25:39.293491"
+        },
+        {
+          "query": "Batman",
+          "timestamp": "2025-12-30T23:25:42.508917"
+        },
+        {
+          "query": "Batman",
+          "timestamp": "2025-12-30T23:25:42.700448"
+        },
+        {
+          "query": "Batman",
+          "timestamp": "2025-12-30T23:25:42.916530"
+        },
+        {
+          "query": "inter",
+          "timestamp": "2025-12-30T23:25:46.802963"
+        },
+        {
+          "query": "Interstellar",
+          "timestamp": "2025-12-30T23:25:48.070417"
+        },
+        {
+          "query": "Interstellar",
+          "timestamp": "2025-12-30T23:25:48.586292"
+        },
+        {
+          "query": "interstell",
+          "timestamp": "2025-12-30T23:26:06.332989"
+        },
+        {
+          "query": "interstellar",
+          "timestamp": "2025-12-30T23:26:06.777110"
+        },
+        {
+          "query": "Interstellar",
+          "timestamp": "2025-12-30T23:26:08.735898"
+        },
+        {
+          "query": "Interstellar",
+          "timestamp": "2025-12-30T23:26:08.900712"
+        },
+        {
+          "query": "Interstellar",
+          "timestamp": "2025-12-30T23:26:09.085215"
+        },
+        {
+          "query": "Interstellar",
+          "timestamp": "2025-12-30T23:26:09.251967"
+        },
+        {
+          "query": "Interstellar",
+          "timestamp": "2025-12-30T23:26:09.435586"
+        },
+        {
+          "query": "Interstellar",
+          "timestamp": "2025-12-30T23:26:09.635296"
+        },
+        {
+          "query": "inters",
+          "timestamp": "2025-12-30T23:29:03.200960"
+        },
+        {
+          "query": "interstellar",
+          "timestamp": "2025-12-30T23:29:04.451531"
+        },
+        {
+          "query": "in",
+          "timestamp": "2025-12-30T23:29:08.074524"
+        },
+        {
+          "query": "in",
+          "timestamp": "2025-12-30T23:31:42.235261"
+        },
+        {
+          "query": "interstellar",
+          "timestamp": "2025-12-30T23:31:44.489352"
+        },
+        {
+          "query": "interstela",
+          "timestamp": "2025-12-30T23:35:08.759534"
+        },
+        {
+          "query": "interstelaa",
+          "timestamp": "2025-12-30T23:35:09.437707"
+        },
+        {
+          "query": "interstellar",
+          "timestamp": "2025-12-30T23:35:10.357337"
+        },
+        {
+          "query": "batman",
+          "timestamp": "2025-12-30T23:35:16.174879"
+        },
+        {
+          "query": "batman",
+          "timestamp": "2025-12-31T00:27:03.692387"
+        },
+        {
+          "query": "batman",
+          "timestamp": "2025-12-31T00:28:36.494522"
+        },
+        {
+          "query": "ba",
+          "timestamp": "2025-12-31T02:22:13.670431"
+        },
+        {
+          "query": "batman",
+          "timestamp": "2025-12-31T02:22:14.279481"
+        },
+        {
+          "query": "batman",
+          "timestamp": "2025-12-31T02:26:13.805816"
+        }
+      ]
+    },
+    {
+      "username": "string",
+      "email": "gojuruakash18@gmail.com",
+      "password": "$2b$12$E/G6OlYVBE/PWhHZQSALleFtP.udNkAy4R4RtyRPfAWSJuOvfbI9S",
+      "viewed_movies": [
+        {
+          "movie_id": 17,
+          "timestamp": "2025-12-29T08:45:50.366404"
+        },
+        {
+          "movie_id": 17,
+          "timestamp": "2025-12-29T08:46:00.390911"
+        },
+        {
+          "movie_id": 414,
+          "timestamp": "2025-12-30T23:40:18.082618"
+        },
+        {
+          "movie_id": 414,
+          "timestamp": "2025-12-30T23:40:49.700662"
+        },
+        {
+          "movie_id": 414,
+          "timestamp": "2025-12-30T23:41:46.705706"
+        },
+        {
+          "movie_id": 414,
+          "timestamp": "2025-12-31T00:09:55.701839"
+        }
+      ],
+      "search_history": [
+        {
+          "query": "batman",
+          "timestamp": "2025-12-30T23:40:14.204288"
+        },
+        {
+          "query": "batman",
+          "timestamp": "2025-12-30T23:40:47.348605"
+        },
+        {
+          "query": "batman",
+          "timestamp": "2025-12-31T00:10:00.481759"
+        }
+      ],
+      "liked_movies": [
+        414,
+        211672
+      ]
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Shawshank Redemption",
+      "overview": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "poster_path": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+      "backdrop_path": "https://image.tmdb.org/t/p/original/kXfqcdQKsToO0OUXHcrrNCHDBzO.jpg",
+      "release_date": "1994-09-23",
+      "vote_average": 8.7,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "runtime": 142,
+      "like_count": 0
+    },
+    {
+      "id": 2,
+      "title": "The Godfather",
+      "overview": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "poster_path": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+      "backdrop_path": "https://image.tmdb.org/t/p/original/tmU7GeKVybMWFButWEGl2M4GeiP.jpg",
+      "release_date": "1972-03-14",
+      "vote_average": 8.7,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "runtime": 175,
+      "like_count": 0
+    },
+    {
+      "id": 3,
+      "title": "The Dark Knight",
+      "overview": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      "poster_path": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+      "backdrop_path": "https://image.tmdb.org/t/p/original/hkBaDkMWbLaf8B1lsWsKX7Ew3Xq.jpg",
+      "release_date": "2008-07-16",
+      "vote_average": 8.5,
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "runtime": 152,
+      "like_count": 1
+    },
+    {
+      "id": 4,
+      "title": "Pulp Fiction",
+      "overview": "The lives of two mob hitmen, a boxer, a gangster and his wife intertwine in four tales of violence and redemption.",
+      "poster_path": "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
+      "backdrop_path": "https://image.tmdb.org/t/p/original/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
+      "release_date": "1994-09-10",
+      "vote_average": 8.5,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "runtime": 154,
+      "like_count": 1
+    },
+    {
+      "id": 5,
+      "title": "Inception",
+      "overview": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+      "poster_path": "https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg",
+      "backdrop_path": "https://image.tmdb.org/t/p/original/s3TBrRGB1iav7gFOCNx3H31MoES.jpg",
+      "release_date": "2010-07-15",
+      "vote_average": 8.4,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "runtime": 148,
+      "like_count": 0
+    },
+    {
+      "id": 6,
+      "title": "Fight Club",
+      "overview": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
+      "poster_path": "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+      "backdrop_path": "https://image.tmdb.org/t/p/original/hZkgoQYus5vegHoetLkCJzb17zJ.jpg",
+      "release_date": "1999-10-15",
+      "vote_average": 8.4,
+      "genres": [
+        "Drama"
+      ],
+      "runtime": 139,
+      "like_count": 0
+    },
+    {
+      "id": 7,
+      "title": "Forrest Gump",
+      "overview": "The presidencies of Kennedy and Johnson, the Vietnam War, and other historical events unfold from the perspective of an Alabama man with an IQ of 75.",
+      "poster_path": "https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
+      "backdrop_path": "https://image.tmdb.org/t/p/original/7c9UVPPiTPltouxRVY6N9uUaHDa.jpg",
+      "release_date": "1994-06-23",
+      "vote_average": 8.4,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "runtime": 142,
+      "like_count": 0
+    },
+    {
+      "id": 8,
+      "title": "The Matrix",
+      "overview": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+      "poster_path": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+      "backdrop_path": "https://image.tmdb.org/t/p/original/icmmSD4vTTDKOq2vvdulafOGw93.jpg",
+      "release_date": "1999-03-30",
+      "vote_average": 8.2,
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "runtime": 136,
+      "like_count": 0
+    },
+    {
+      "id": 9,
+      "title": "Goodfellas",
+      "overview": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners.",
+      "poster_path": "https://image.tmdb.org/t/p/w500/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg",
+      "backdrop_path": "https://image.tmdb.org/t/p/original/rSPw7tgCH9c6NqICZef4kZjFOQ5.jpg",
+      "release_date": "1990-09-12",
+      "vote_average": 8.5,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "runtime": 145,
+      "like_count": 0
+    },
+    {
+      "id": 10,
+      "title": "Interstellar",
+      "overview": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      "poster_path": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+      "backdrop_path": "https://image.tmdb.org/t/p/original/xu9zaAevzQ5nnrsXN6JcahLnG4i.jpg",
+      "release_date": "2014-11-05",
+      "vote_average": 8.4,
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Science Fiction"
+      ],
+      "runtime": 169,
+      "like_count": 0
+    },
+    {
+      "id": 11,
+      "title": "Parasite",
+      "overview": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
+      "poster_path": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+      "backdrop_path": "https://image.tmdb.org/t/p/original/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg",
+      "release_date": "2019-05-30",
+      "vote_average": 8.5,
+      "genres": [
+        "Comedy",
+        "Thriller",
+        "Drama"
+      ],
+      "runtime": 133,
+      "like_count": 0
+    },
+    {
+      "id": 12,
+      "title": "The Silence of the Lambs",
+      "overview": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer.",
+      "poster_path": "https://image.tmdb.org/t/p/w500/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
+      "backdrop_path": "https://image.tmdb.org/t/p/original/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+      "release_date": "1991-02-14",
+      "vote_average": 8.3,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "runtime": 118,
+      "like_count": 0
+    },
+    {
+      "id": 13,
+      "title": "Avengers: Endgame",
+      "overview": "After the devastating events of Infinity War, the Avengers assemble once more to reverse Thanos' actions and restore balance to the universe.",
+      "poster_path": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+      "backdrop_path": "https://image.tmdb.org/t/p/original/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+      "release_date": "2019-04-24",
+      "vote_average": 8.3,
+      "genres": [
+        "Adventure",
+        "Science Fiction",
+        "Action"
+      ],
+      "runtime": 181,
+      "like_count": 0
+    },
+    {
+      "id": 14,
+      "title": "Spider-Man: Into the Spider-Verse",
+      "overview": "Teen Miles Morales becomes the Spider-Man of his universe and must join with five spider-powered individuals from other dimensions.",
+      "poster_path": "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
+      "backdrop_path": "https://image.tmdb.org/t/p/original/uUiId6cG32JSRI6RyBQSvQtLJJM.jpg",
+      "release_date": "2018-12-06",
+      "vote_average": 8.4,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Animation"
+      ],
+      "runtime": 117,
+      "like_count": 0
+    },
+    {
+      "id": 15,
+      "title": "Joker",
+      "overview": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime.",
+      "poster_path": "https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg",
+      "backdrop_path": "https://image.tmdb.org/t/p/original/n6bUvigpRFqSwmPp1m2YADdbRBc.jpg",
+      "release_date": "2019-10-01",
+      "vote_average": 8.2,
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Drama"
+      ],
+      "runtime": 122,
+      "like_count": 0
+    },
+    {
+      "id": 16,
+      "title": "Whiplash",
+      "overview": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+      "poster_path": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+      "backdrop_path": "https://image.tmdb.org/t/p/original/6bbZ6XyvgfjhQwbplnUh1LSj1ky.jpg",
+      "release_date": "2014-10-10",
+      "vote_average": 8.3,
+      "genres": [
+        "Drama",
+        "Music"
+      ],
+      "runtime": 107,
+      "like_count": 0
+    },
+    {
+      "id": 17,
+      "title": "The Prestige",
+      "overview": "After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+      "poster_path": "https://image.tmdb.org/t/p/w500/tRNlZbgNCNOpLpbPEz5L8G8A0JN.jpg",
+      "backdrop_path": "https://image.tmdb.org/t/p/original/85TRDBEo0nkuPWejn7r0UQRIzkx.jpg",
+      "release_date": "2006-10-17",
+      "vote_average": 8.2,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Science Fiction"
+      ],
+      "runtime": 130,
+      "like_count": 0
+    },
+    {
+      "id": 18,
+      "title": "Gladiator",
+      "overview": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+      "poster_path": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+      "backdrop_path": "https://image.tmdb.org/t/p/original/6wkfovpn7Eq8dYNKaG5PY3q2oq6.jpg",
+      "release_date": "2000-05-01",
+      "vote_average": 8.2,
+      "genres": [
+        "Action",
+        "Drama",
+        "Adventure"
+      ],
+      "runtime": 155,
+      "like_count": 0
+    },
+    {
+      "id": 19,
+      "title": "The Lion King",
+      "overview": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
+      "poster_path": "https://image.tmdb.org/t/p/w500/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg",
+      "backdrop_path": "https://image.tmdb.org/t/p/original/1TUg5pO1VZ4B0Q1amk3OlXvlpXV.jpg",
+      "release_date": "1994-06-23",
+      "vote_average": 8.3,
+      "genres": [
+        "Family",
+        "Animation",
+        "Drama"
+      ],
+      "runtime": 88,
+      "like_count": 0
+    },
+    {
+      "id": 20,
+      "title": "Dune",
+      "overview": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.",
+      "poster_path": "https://image.tmdb.org/t/p/w500/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
+      "backdrop_path": "https://image.tmdb.org/t/p/original/xt0nfNIlPpyqXVsLqWy8e9Ois4D.jpg",
+      "release_date": "2021-09-15",
+      "vote_average": 8.0,
+      "genres": [
+        "Science Fiction",
+        "Adventure"
+      ],
+      "runtime": 155,
+      "like_count": 0
+    },
+    {
+      "id": 414,
+      "tmdb_id": 414,
+      "title": "Batman Forever",
+      "overview": "The Dark Knight of Gotham City confronts a dastardly duo: Two-Face and the Riddler. Formerly District Attorney Harvey Dent, Two-Face believes Batman caused the courtroom accident which left him disfigured on one side. And Edward Nygma, computer-genius and former employee of millionaire Bruce Wayne, is out to get the philanthropist; as The Riddler. Former circus acrobat Dick Grayson, his family killed by Two-Face, becomes Wayne's ward and Batman's new partner Robin.",
+      "poster_path": "https://placehold.co/500x750/1a1a2e/FFF?text=Batman+Forever",
+      "backdrop_path": "https://placehold.co/1920x1080/1a1a2e/FFF?text=Batman+Forever",
+      "release_date": "1995-05-31",
+      "vote_average": 5.2,
+      "popularity": 48.205606,
+      "genres": [
+        "Action",
+        "Crime",
+        "Fantasy"
+      ],
+      "runtime": 121,
+      "like_count": 2,
+      "is_tmdb": true,
+      "is_liked": false
+    },
+    {
+      "id": 211672,
+      "tmdb_id": 211672,
+      "title": "Minions",
+      "overview": "Minions Stuart, Kevin and Bob are recruited by Scarlet Overkill, a super-villain who, alongside her inventor husband Herb, hatches a plot to take over the world.",
+      "poster_path": "https://placehold.co/500x750/1a1a2e/FFF?text=Minions",
+      "backdrop_path": "https://placehold.co/1920x1080/1a1a2e/FFF?text=Minions",
+      "release_date": "2015-06-17",
+      "vote_average": 6.4,
+      "popularity": 875.581305,
+      "genres": [
+        "Family",
+        "Animation",
+        "Adventure"
+      ],
+      "runtime": 91,
+      "like_count": 1,
+      "is_tmdb": true,
+      "is_liked": false
+    },
+    {
+      "id": 2661,
+      "tmdb_id": 2661,
+      "title": "Batman",
+      "overview": "The Dynamic Duo faces four super-villains who plan to hold the world for ransom with the help of a secret invention that instantly dehydrates people.",
+      "poster_path": "https://placehold.co/500x750/1a1a2e/FFF?text=Batman",
+      "backdrop_path": "https://placehold.co/1920x1080/1a1a2e/FFF?text=Batman",
+      "release_date": "1966-07-30",
+      "vote_average": 6.1,
+      "popularity": 9.815394,
+      "genres": [
+        "Family",
+        "Adventure",
+        "Comedy"
+      ],
+      "runtime": 105,
+      "like_count": 1,
+      "is_tmdb": true,
+      "is_liked": false
+    },
+    {
+      "id": 268,
+      "tmdb_id": 268,
+      "title": "Batman",
+      "overview": "The Dark Knight of Gotham City begins his war on crime with his first major enemy being the clownishly homicidal Joker, who has seized control of Gotham's underworld.",
+      "poster_path": "https://placehold.co/500x750/1a1a2e/FFF?text=Batman",
+      "backdrop_path": "https://placehold.co/1920x1080/1a1a2e/FFF?text=Batman",
+      "release_date": "1989-06-23",
+      "vote_average": 7.0,
+      "popularity": 44.104469,
+      "genres": [
+        "Fantasy",
+        "Action"
+      ],
+      "runtime": 126,
+      "like_count": 1,
+      "is_tmdb": true,
+      "is_liked": false
+    }
+  ],
+  "comments": [
+    {
+      "id": "7b76e15f-38fd-4fca-a998-c9b9ece53c9d",
+      "movie_id": 17,
+      "username": "akshith",
+      "text": "HI these is movie is very good",
+      "timestamp": "2025-12-29T08:44:51.595477"
+    },
+    {
+      "id": "6b510248-8314-4a8f-9a58-1ee3efb956d3",
+      "movie_id": 17,
+      "username": "string",
+      "text": "These is very good",
+      "timestamp": "2025-12-29T08:46:08.746338"
+    },
+    {
+      "id": "ca52993e-e969-48cc-bb3f-f4d9f3d04ae6",
+      "movie_id": 414,
+      "username": "akshith",
+      "text": "hi movie is very good",
+      "timestamp": "2025-12-30T23:38:20.430452"
+    },
+    {
+      "id": "d2dcf1f4-d15b-4323-b9f8-68bdf93a6301",
+      "movie_id": 414,
+      "username": "string",
+      "text": "these is good movie",
+      "timestamp": "2025-12-30T23:40:36.279151"
+    }
+  ]
+}

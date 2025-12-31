@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineTrack - Discover Movies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/styles/movies.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <svg class="brand-icon" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <path d="M16 2L4 8V12C4 18.62 9.36 24.59 16 26C22.64 24.59 28 18.62 28 12V8L16 2Z"
+                        fill="url(#brandGradient)" stroke="white" stroke-width="2" />
+                    <defs>
+                        <linearGradient id="brandGradient" x1="4" y1="2" x2="28" y2="26">
+                            <stop stop-color="#e50914" />
+                            <stop offset="1" stop-color="#b20710" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <span class="brand-name">CineTrack</span>
+            </div>
+
+            <div class="nav-search">
+                <svg class="search-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="2" />
+                    <path d="M14 14L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                </svg>
+                <input type="text" id="searchInput" class="search-input" placeholder="Search movies...">
+            </div>
+
+            <div class="nav-actions">
+                <div class="user-menu">
+                    <button class="user-button" id="userButton">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M12 12C14.7614 12 17 9.76142 17 7C17 4.23858 14.7614 2 12 2C9.23858 2 7 4.23858 7 7C7 9.76142 9.23858 12 12 12Z"
+                                fill="currentColor" />
+                            <path d="M12 14C6.477 14 2 16.686 2 20V22H22V20C22 16.686 17.523 14 12 14Z"
+                                fill="currentColor" />
+                        </svg>
+                        <span id="username">User</span>
+                        <svg class="dropdown-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                        </svg>
+                    </button>
+                    <div class="user-dropdown" id="userDropdown">
+                        <div class="dropdown-header">
+                            <div class="user-stats" id="userStats">
+                                <div class="stat-item">
+                                    <span class="stat-value" id="likedCount">0</span>
+                                    <span class="stat-label">Liked</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value" id="viewedCount">0</span>
+                                    <span class="stat-label">Viewed</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <button class="dropdown-item" id="myLikesBtn">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M10 18L2 10L4 8L10 14L16 8L18 10L10 18Z" fill="currentColor" />
+                            </svg>
+                            My Liked Movies
+                        </button>
+                        <button class="dropdown-item" id="logoutBtn">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path
+                                    d="M13 16L18 11L13 6M18 11H6M10 16V18C10 19.1 9.1 20 8 20H4C2.9 20 2 19.1 2 18V4C2 2.9 2.9 2 4 2H8C9.1 2 10 2.9 10 4V6"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                            </svg>
+                            Logout
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 class="hero-title">Discover Amazing Movies</h1>
+                <p class="hero-subtitle">Track, like, and comment on your favorite films</p>
+            </div>
+        </section>
+
+        <!-- Movies Grid -->
+        <section class="movies-section">
+            <div class="section-header">
+                <h2 class="section-title">All Movies</h2>
+                <div style="display: flex; align-items: center; gap: 16px;">
+
+                    <div class="section-info" id="movieCount">Loading...</div>
+                </div>
+            </div>
+
+            <!-- Category Tabs -->
+            <div class="category-tabs" id="categoryTabs">
+                <button class="category-tab active" data-category="popular">Popular</button>
+                <button class="category-tab" data-category="top_rated">Top Rated</button>
+                <button class="category-tab" data-category="upcoming">Upcoming</button>
+            </div>
+
+            <!-- Loading State -->
+            <div class="loading-container" id="loadingState">
+                <div class="loading-spinner"></div>
+                <p>Loading movies...</p>
+            </div>
+
+            <!-- Movies Grid -->
+            <div class="movies-grid" id="moviesGrid"></div>
+
+            <!-- Empty State -->
+            <div class="empty-state" id="emptyState" style="display: none;">
+                <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+                    <path d="M32 8L8 20V28C8 41.24 18.72 53.18 32 56C45.28 53.18 56 41.24 56 28V20L32 8Z"
+                        stroke="currentColor" stroke-width="3" fill="none" />
+                </svg>
+                <h3>No movies found</h3>
+                <p>Try a different search term</p>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="load-more-container" id="loadMoreContainer" style="display: none;">
+                <button class="load-more-btn" id="loadMoreBtn">
+                    <span>Load More</span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 4V16M4 10H16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                </button>
+            </div>
+        </section>
+
+        <!-- Recommendations Section -->
+        <section class="movies-section" id="recommendationsSection" style="display: none; padding-top: 0;">
+            <div class="section-header">
+                <h2 class="section-title">Similar Movies</h2>
+                <p style="color: var(--text-muted);">Based on your search</p>
+            </div>
+            <div class="movies-grid" id="recommendationsGrid"></div>
+        </section>
+    </main>
+
+    <!-- Movie Detail Modal -->
+    <div class="modal" id="movieModal">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M6 6L18 18M6 18L18 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                </svg>
+            </button>
+
+            <div class="modal-body" id="modalBody">
+                <!-- Movie details will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="/scripts/movies.js?v=2"></script>
+</body>
+
+</html>

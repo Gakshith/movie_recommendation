@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Details - CineTrack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/styles/movie-detail.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/movies" class="nav-brand">
+                <svg class="brand-icon" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <path d="M16 2L4 8V12C4 18.62 9.36 24.59 16 26C22.64 24.59 28 18.62 28 12V8L16 2Z"
+                        fill="url(#brandGradient)" stroke="white" stroke-width="2" />
+                    <defs>
+                        <linearGradient id="brandGradient" x1="4" y1="2" x2="28" y2="26">
+                            <stop stop-color="#e50914" />
+                            <stop offset="1" stop-color="#b20710" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <span class="brand-name">CineTrack</span>
+            </a>
+
+            <div class="nav-actions">
+                <a href="/movies" class="back-button">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M12 4L6 10L12 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    Back to Movies
+                </a>
+                <button class="logout-btn" id="logoutBtn">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path
+                            d="M13 16L18 11L13 6M18 11H6M10 16V18C10 19.1 9.1 20 8 20H4C2.9 20 2 19.1 2 18V4C2 2.9 2.9 2 4 2H8C9.1 2 10 2.9 10 4V6"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Loading State -->
+    <div class="loading-container" id="loadingState">
+        <div class="loading-spinner"></div>
+        <p>Loading movie details...</p>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content" id="mainContent" style="display: none;">
+        <!-- Hero Section with Backdrop -->
+        <section class="hero" id="heroSection">
+            <div class="hero-overlay"></div>
+        </section>
+
+        <!-- Movie Details -->
+        <div class="detail-container">
+            <div class="detail-grid">
+                <!-- Left Column - Poster and Actions -->
+                <div class="poster-column">
+                    <img id="moviePoster" class="movie-poster" alt="Movie Poster">
+                    <button class="like-button-large" id="likeButton">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" id="likeIcon">
+                            <path
+                                d="M12 21L10.5 19.7C5.4 15.1 2 12.1 2 8.5C2 5.4 4.4 3 7.5 3C9.2 3 10.9 3.8 12 5.1C13.1 3.8 14.8 3 16.5 3C19.6 3 22 5.4 22 8.5C22 12.1 18.6 15.1 13.5 19.7L12 21Z"
+                                stroke="currentColor" stroke-width="2" />
+                        </svg>
+                        <span id="likeButtonText">Like</span>
+                    </button>
+                </div>
+
+                <!-- Right Column - Info and Comments -->
+                <div class="info-column">
+                    <!-- Movie Info -->
+                    <div class="movie-header">
+                        <h1 class="movie-title" id="movieTitle">Loading...</h1>
+                        <div class="movie-meta" id="movieMeta"></div>
+                    </div>
+
+                    <div class="movie-genres" id="movieGenres"></div>
+
+                    <div class="movie-overview">
+                        <h3>Overview</h3>
+                        <p id="movieOverview">Loading...</p>
+                    </div>
+
+                    <!-- Comments Section -->
+                    <div class="comments-section">
+                        <h3>Comments <span id="commentCount">(0)</span></h3>
+
+                        <!-- Add Comment -->
+                        <div class="add-comment">
+                            <textarea id="commentInput" placeholder="Share your thoughts about this movie..."
+                                rows="3"></textarea>
+                            <button class="submit-comment-btn" id="submitCommentBtn">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M2 10L18 2L10 18L8 11L2 10Z" fill="currentColor" />
+                                </svg>
+                                Post Comment
+                            </button>
+                        </div>
+
+                        <!-- Comments List -->
+                        <div class="comments-list" id="commentsList">
+                            <p class="no-comments">No comments yet. Be the first to comment!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="/scripts/movie-detail.js"></script>
+</body>
+
+</html>
